@@ -15,5 +15,6 @@ Local Development
 conda create -n reverie python=3.7
 source activate flask-template
 pip install -r requirements.txt
+pre-commit install
 python app.py
 ```
